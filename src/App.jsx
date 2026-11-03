@@ -6,7 +6,7 @@ function App() {
 
   function pobierzDane() {
     let PrzedSzyfrem = document.getElementById('przed').value
-    // zasady szyfrowania (szyfr Cezara): kazda litera przesunieta o 1, z = a
+    // zasady szyfrowania 
     PrzedSzyfrem = PrzedSzyfrem.replaceAll('z', '#')
     PrzedSzyfrem = PrzedSzyfrem.replaceAll('y', 'z')
     PrzedSzyfrem = PrzedSzyfrem.replaceAll('x', 'y')
